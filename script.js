@@ -112,6 +112,6 @@ let regex = /t[a-z]*?i/
 // console.log(string.match(regex)); 
 
 let text = "<h1>Winter is coming</h1>";
-let myRegex4 = /<.*?>/; // Change this line
+let myRegex4 = /<.*?>/;
 let result11 = text.match(myRegex4);
 console.log(result11);
