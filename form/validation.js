@@ -4,7 +4,8 @@ const patterns = {
     telephone: /^[0-9]{10}$/,
     username: /^[a-z0-9]{5,12}$/i,
     password: /^[\w@-]{8,20}$/,
-    slug: /^[a-z0-9-]{8,20}$/
+    slug: /^[a-z0-9-]{8,20}$/,
+    email: /^([a-z0-9\.-]+)@([a-z0-9-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/
 }
 
 function validate(field, regex){
